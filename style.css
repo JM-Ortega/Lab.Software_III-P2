@@ -1,0 +1,126 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Agrupación de textos principales */
+h1,
+h2,
+h3,
+p {
+  color: #7a2bbf; /* Color morado en hexadecimal */
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* Espacio entre logo y título */
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.logo {
+  width: 70px;
+  margin-left: 40px;
+}
+
+.title {
+  flex: 1; /* Permite que el título ocupe el espacio restante */
+  text-align: center;
+  margin: 0;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+footer {
+  background-color: #f8e9db;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.footer-title {
+  display: block; /* Permite centrar el texto */
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual tamaño */
+  gap: 20px; /* Espacio entre tarjetas */
+}
+
+.card {
+  min-height: 260px;
+  border: 3px solid transparent;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.imgDoctor {
+  width: 140px;
+}
+
+/* Contenedor imagen y botón */
+.card-actions {
+  display: flex;
+  flex-direction: column; /* Pone el botón debajo */
+  align-items: center; /* Centra horizontalmente */
+  gap: 10px; /* Espacio entre imagen y botón */
+  margin-top: 10px;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+}
+
+#doctor1 {
+  background-color: #edf8c6;
+  border-color: #d9ff4e;
+  text-align: right;
+}
+
+#doctor2 {
+  background-color: #ffc0c7;
+  border-color: #fd7f8e;
+  text-align: center;
+}
+
+#doctor3 {
+  background-color: #a9eef1;
+  border-color: #00f2ff;
+  text-align: left;
+}
+
+#doctor4 {
+  background-color: #a9eef1;
+  border-color: #00f2ff;
+  text-align: right;
+}
+
+#doctor5 {
+  background-color: #fff4a3;
+  border-color: #ffe100;
+  text-align: center;
+}
+
+#doctor6 {
+  background-color: #ffc0c7;
+  border-color: #fd7f8e;
+  text-align: left;
+}
+
+.w3c-badge img {
+  width: 60px;
+  float: right;
+  margin-left: 10px;
+}
